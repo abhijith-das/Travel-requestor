@@ -1,0 +1,43 @@
+<!-- Login Page
+This will be the landing page and other pages will be redirected from here depending on  credentials by user -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Travel Request</title>
+    <script src="/js/Login.js">
+        //document.write(season);
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/LoginStyle.css">
+</head>
+
+<body>
+
+    <div id="container" class="customContainer ">
+        <h1 class="text">
+            LOGIN
+        </h1>
+        <hr>
+        <form id="frmEmployee">
+            <div id="formGroup">
+                <label for="userName">User Name: </label>
+                <input type="text" name="userName" id="userName" class="form-control">
+                <span id="userNameError" class="error"></span>
+            </div>
+            <div id="formGroup">
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass" class="form-control">
+                <span id="passError" class="error"></span>
+            </div><br>
+            <!-- submit button to submit the values -->
+            <button type="button" class="btn btn-dark form-control btn-style" onclick="validate()">Login</button><br>
+            <span id="loginError" class="error"></span>
+        </form>
+    </div>
+</body>
+
+</html>

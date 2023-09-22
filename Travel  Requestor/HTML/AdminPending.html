@@ -1,0 +1,143 @@
+<!--
+page for showing pending works of admin
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Travel Request</title>
+    <!-- <script src="/js/User.js"> -->
+    <!-- //document.write(season); -->
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/AdminStyle.css">
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="/JS/RedirectRequest.js"></script>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar sticky-top navbar-expand-lg navbar-light navStyle">
+        <a class="navbar-brand" href="Admin.html">Travel Requestor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+        <div class="collapse navbar-collapse navContent" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="AdminPending.html">Pending <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="AdminPending.html">All <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="AdminPending.html">Approved <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="AdminPending.html">Rejected <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="AdminPending.html">On-Hold <span class="sr-only">(current)</span></a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="button" onclick="LogOut()">Log-Out</button>
+            </form>
+
+        </div>
+    </nav>
+    <div class="tableStyle">
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Employee Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Priority</th>
+                    <th scope="col">Details</th>
+                    <th scope="col">Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Aswathy</td>
+                    <td>Delhi</td>
+                    <td>Critical</td>
+                    <td><a href="AdminTravelDetails.html">View Details</a></td>
+                    <td>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                              <option selected>Choose...</option>
+                              <option value="Approve">Approve</option>
+                              <option value="Hold">Hold</option>
+                              <option value="Reject">Reject</option>
+                            </select>
+                        </div>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Franco</td>
+                    <td>Kochi</td>
+                    <td>Critical</td>
+                    <td><a href="AdminTravelDetails.html">View Details</a></td>
+                    <td>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                              <option selected>Choose...</option>
+                              <option value="Approve">Approve</option>
+                              <option value="Hold">Hold</option>
+                              <option value="Reject">Reject</option>
+                            </select>
+                        </div>
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Abhi</td>
+                    <td>London</td>
+                    <td>Normal</td>
+                    <td><a href="AdminTravelDetails.html">View Details</a></td>
+                    <td>
+                        <div class="input-group">
+                            <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                              <option selected>Choose...</option>
+                              <option value="Approve">Approve</option>
+                              <option value="Hold">Hold</option>
+                              <option value="Reject">Reject</option>
+                            </select>
+                        </div>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

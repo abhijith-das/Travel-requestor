@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(142, 205, 221, 0.438);
+}
+
+.customContainer {
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.ipBoxError {
+    box-shadow: 0 0 5px rgba(255, 12, 12, 0.9);
+}
+
+.error {
+    color: red;
+}
+
+.text {
+    font: 2em trebuchet;
+}
+
+.btn-style {
+    margin: 5px;
+}

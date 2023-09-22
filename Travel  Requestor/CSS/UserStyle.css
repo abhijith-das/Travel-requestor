@@ -1,0 +1,67 @@
+input[type="radio"] {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+input[type="checkbox"] {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.customContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.ipBoxError {
+    box-shadow: 0 0 5px rgba(255, 12, 12, 0.9);
+}
+
+.error {
+    color: red;
+}
+
+.buttonStyle {
+    margin: 5px;
+}
+
+.text {
+    align-items: center;
+    text-align: center;
+}
+
+.frmData {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    justify-content: space-evenly;
+}
+
+.icon {
+    color: black;
+    height: 50px;
+    width: 50px;
+}
+
+.tableStyle {
+    margin: 5% auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.imgStyle {
+    height: 30%;
+    width: 30%;
+}
+
+.navStyle {
+    background-color: #e3f2fd;
+}
+
+.navContent {
+    margin-left: 3%;
+    padding: auto;
+}
